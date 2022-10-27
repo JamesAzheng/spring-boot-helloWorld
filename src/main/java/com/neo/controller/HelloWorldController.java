@@ -13,7 +13,7 @@ public class HelloWorldController {
 	
     @RequestMapping("/hello")
     public String hello() {
-        return "Hello World from MageEdu.com";
+        return "Hello World";
     }
 	
     @RequestMapping("/version")
